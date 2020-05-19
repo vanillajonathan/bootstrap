@@ -70,17 +70,11 @@
 //
 
 .bd-example {
-  position: relative;
-  padding: 1rem;
   margin: 1rem (-$grid-gutter-width / 2) 0;
   border: solid $gray-300;
   border-width: 1px 0 0;
-  @include clearfix();
 
   @include media-breakpoint-up(sm) {
-    padding: 1.5rem;
-    margin-right: 0;
-    margin-left: 0;
     border-width: 1px;
     @include border-top-radius(.25rem);
 

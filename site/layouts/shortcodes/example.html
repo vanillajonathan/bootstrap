@@ -13,7 +13,7 @@
 {{- $input := .Inner -}}
 
 {{- if eq $show_preview true -}}
-<div{{ with .Get "id" }} id="{{ . }}"{{ end }} class="bd-example{{ with .Get "class" }} {{ . }}{{ end }}">
+<div{{ with .Get "id" }} id="{{ . }}"{{ end }} class="bd-example clearfix position-relative p-3 p-sm-4 mx-sm-0{{ with .Get "class" }} {{ . }}{{ end }}">
   {{- $input -}}
 </div>
 {{- end -}}
